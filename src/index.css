@@ -1,0 +1,45 @@
+.nav-bar{
+    display:flex;
+    justify-content: space-between;
+    background-color: #270858;
+    padding:10px;
+    color:rgb(250, 243, 243);
+}
+
+.brand{
+    font-weight: bolder;
+    width:20%;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.search-bar{
+    width:60%;
+
+}
+.search-bar input{
+    width:50%;
+   /* text-align: center;*/
+}
+input::placeholder{
+    padding:10px;
+    font-weight:bold;
+}
+.cart{
+    width:20%;
+    text-align: center;
+    font-weight: bolder
+}
+
+.nav-bar-wrapper{
+    display:flex;
+    justify-content: space-between;
+    padding:10px;
+    background-color:rgb(46, 8, 134);
+    color:white; 
+}
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
