@@ -24,6 +24,7 @@ const Navbar= ()=> {
         <div className="items">{">="} 59999</div>
         <div className="items"></div>    
         </div>
+    
    
    </header>
     </>
